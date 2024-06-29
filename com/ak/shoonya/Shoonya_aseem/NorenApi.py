@@ -252,7 +252,7 @@ class NorenApi:
         self.__accountid = userid
         self.__password = password
         self.__susertoken = resDict['susertoken']
-        f = open("strategies/shoonyakey.txt", 'w')
+        f = open("../subscription/shoonyakey.txt", 'w')
         f.write(resDict['susertoken'])
         f.close()
         # reportmsg(self.__susertoken)
