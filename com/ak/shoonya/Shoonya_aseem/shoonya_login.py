@@ -1,6 +1,4 @@
 from NorenApi import NorenApi
-import pyotp
-from com.ak import credentials
 from com.ak.credentials import Credentials
 
 
